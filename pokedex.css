@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("./images/hoenn-bg.jpg") no-repeat;
+    background-size: cover; 
+}
+
+#content-box{
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+
+    background-color: green;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background: url("./images/pokedex-bg.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+
+    background: url("./images/pokemon-bg.png");
+    background-size: cover;
+}
+
+#pokemon-list {
+    padding-top: 150px;
+    width: 250px;
+    height: 350px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.water {
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+
+.grass {
+    background-color: rgb(51, 255, 0);
+    color: black;
+}
+
+.flying {
+    background-color: rgb(180, 232, 244);
+    color: black;
+}
+
+.fighting {
+    background-color: rgb(255, 81, 0);
+    color: black;
+}
+
+.poison {
+    background-color: purple;
+    color: white;
+}
+
+.electric {
+    background-color: yellow;
+    color: black;
+}
+
+.ground {
+    background-color: rgb(182, 146, 78);
+    color: black;
+}
+
+.rock {
+    background-color: rgba(113, 57, 0, 0.977);
+    color: white;
+}
+
+.psychic {
+    background-color: rgb(255, 125, 235);
+    color: black;
+}
+
+.ice {
+    background-color: rgb(156, 245, 255);
+    color: black;
+}
+
+.bug {
+    background-color: rgb(130, 201, 102);
+    color: black;
+}
+
+.ghost {
+    background-color: rgb(126, 126, 253);
+    color: black;
+}
+
+.steel {
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+
+.dragon {
+    background-color: indigo;
+    color: white;
+}
+
+.dark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 250px;
+}
+
+ .promise-container{
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+  }
